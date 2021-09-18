@@ -1,0 +1,105 @@
+.container-home {
+    background-color: #010D2D;
+    display: grid;
+    grid-template-columns: 32% 20%;
+    grid-template-rows: 100rem;
+    grid-template-areas: "login login logo logo";   
+    
+    .login {
+        text-align: center;
+        grid-area: login;
+        color: #ffff;
+        margin-top: 14rem;
+        margin-right: 20rem;
+    }
+    .logo {
+        background-color: #ffff;
+        grid-area: logo;
+        position: relative;
+    }
+    img {
+        padding-top: 5rem;
+        margin-left: 4rem;
+    }
+    .tl-1 {
+        position: absolute;
+        height: 55px;
+        left: 125px;
+        top: 875px;
+  
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 59px;
+  
+        color: #000000;
+    }
+    .tl-2{
+        position: absolute;
+        height: 14px;
+        left: 128px;
+        top: 960px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        color: #000000;
+  
+    }
+    h2 {
+        font-weight: normal;
+        display: block;
+        margin-left: auto;
+        margin-right: 25rem;
+        margin-bottom: 6.25rem;
+        font-size: 29px;
+    }
+  
+    .home-form {
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+        margin-left: 15rem;
+    }
+      
+    .form-itens {
+      width: 100%;
+    }
+    
+    .form-field {
+      width: 100%;
+    }
+  
+    .key{
+      transform: rotate(95deg);
+    }
+  
+    .spacing {
+        margin-bottom:2.1875rem;
+    }
+  
+    .example-right-align {
+      text-align: right;
+    }
+  
+    input.example-right-align::-webkit-outer-spin-button,
+    input.example-right-align::-webkit-inner-spin-button {
+      display: none;
+    }
+    
+    input.example-right-align {
+      -moz-appearance: textfield;
+    }
+  
+    .mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+        background-color: #002893 !important;
+        padding: 0.9rem 14.2rem 0.9rem 14.2rem;
+        top: 2.5rem;
+    }
+  }
+  
+  
+  
+  

@@ -1,0 +1,25 @@
+.container-registration{
+    background-color: white;
+    nav {
+        background-color: #010D2D;
+        margin-top: 16px;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        height: 4.5rem;
+        align-items: center;
+        ul {
+            display: flex;
+        justify-content: space-between;
+
+        }
+        li {
+            color:  white;
+            list-style: none;
+        justify-content: space-between;
+        margin-left: 20px;
+    margin-right: 20px;
+
+        }
+    }
+}
