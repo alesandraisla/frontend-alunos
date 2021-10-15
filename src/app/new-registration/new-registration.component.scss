@@ -1,25 +1,66 @@
-.container-registration{
-    background-color: white;
-    nav {
+
+.container-new {
+    display: flex;
+    flex-direction: column;
+    header {
         background-color: #010D2D;
-        margin-top: 16px;
-        border-radius: 0.5rem;
-        display: flex;
-        justify-content: space-between;
-        height: 4.5rem;
-        align-items: center;
+        height:7rem;
+        border-radius: 20px;
+        margin-top:0.312rem;
         ul {
             display: flex;
-        justify-content: space-between;
-
+            justify-content: flex-end;
         }
         li {
-            color:  white;
-            list-style: none;
-        justify-content: space-between;
-        margin-left: 20px;
-    margin-right: 20px;
-
+            padding: 20px 20px;
+            margin: 20px 20px;
+        }
+        a {
+            font-size: 25px;
+            color: #FFFF;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #7B1FA2;
+        }
+    }
+    body {
+        .new-title {
+            display: flex;
+            justify-content: space-between;
+            h1 {
+                margin: 20px 40px;
+            }
+            a {
+                margin-top: 1.18rem;
+                margin-bottom: 1.56rem;
+                margin-right: 3.12rem;
+            }
+           
+        }
+        .container-fluid {
+            th {
+                padding: 8px 32px;
+            }
+            td {
+                padding: 8px 32px;
+            }
+            a {
+                margin-right: 0.725rem;
+            }
+        }
+        .new-action {
+            display: flex;
+            justify-content: center;
+            .btn-primary {
+                color: #fff;
+                background-color: #002893;
+                border-color: #002893;
+            }
+            .btn-primary:hover {
+                background-color: #041c5e;
+            }
         }
     }
 }
+
